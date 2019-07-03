@@ -1,5 +1,14 @@
 language: node_js
-  node_js: node
-  cache:
-    directories:
-      - node_modules
+node_js: node
+cache:
+  directories:
+  - node_modules
+env:
+- CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: UjFgeJVdrdO4OxRo+OPJ85tY74D0AV0m5wU12FvrGUnh0LRQS1wiULScYSBLpFkmZ0QtqQG6ciyv5hNGCodsCfGXN75cLO1D7ZAFLnNMw2R9yJapp8txW02RmCyGHD3afO6df5a+StojS9v0rvqhubPwwa8Mjw5Iiusy8NkuuX/D61tU0FOx+kYnfleUzfiOlIgXBVSThLOU2ZDuNNnF+96VtqxaAWhFmqVEgO2F6a2Wi8XGS+tth5M1wFxxXL1sRbHe5SyWCcoIAe5iMsFgNQiyKIN/6a4eT/dxhje4eQcNJ8J7VLM/1HXr1Z3O4p4g6Kd6F84ZsEy8kXKJq7rsNMBeneJfSTOWeiNLAjraRGxy9fciEp9dcBPXWU8LC/rZ/kZXc7ntqU3MpZFSZQfvV6B6qu+L24eb3YGuvDpWZorVJKasBKiv13RuiRN2+gtzLtAuggTkD+SNCBuGm/hYEt1rJ2h+85vlJgpNS1aWzWZYMpi86/8NIOQYFZhn8/JrXEzrstmV2Np7Ilrcykmw3o9TFTSOV9rSMIqgDv0+KZgsCD5ReY3YVz021G4vaqDQmZ2Ejvg9tMcCweGn0YKRnlrWmbQb0ybtlUG7eYtWteQ+09x2Aho1ho56Q8qh3WGnWbTw+HPHfJjvTk2cIjFsbYVOOuWr52DnfKmHzcYCezQ=
+  app: fathomless-woodland-56308
+  on:
+    repo: AaronDovTurkel/adt-portfolio-site
