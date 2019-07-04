@@ -2,6 +2,9 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {BrowserRouter as Router, Route, withRouter} from 'react-router-dom';
 
+
+import HomePage from './homePage';
+
 import './app.css';
 
 
@@ -13,7 +16,7 @@ export class App extends React.Component {
                 <div className="app">
                     <header></header>
                     <main>                      
-                        <Route exact path="/" component={} /> 
+                        <Route exact path="/" component={HomePage} /> 
                     </main>
                     <footer></footer>
                 </div>
