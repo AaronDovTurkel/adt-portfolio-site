@@ -12,6 +12,7 @@ export class HomePage extends React.Component {
         return (
             //TODO: create page that will insert diff components... i.e. projects, services, experience, info, connect, idea board
             <div className="homePage">
+                {/* <LandingScreen /> */}
                 {/* <Info /> */}
                 <Projects />
                 {/* <Experience /> */}
