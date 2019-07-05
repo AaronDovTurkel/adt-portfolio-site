@@ -11,8 +11,8 @@
 
 h1 {
     position: absolute;
-    top: calc(6vh + 8vw);
-    left: calc(8vh + 6vw);
+    top: calc(8vh + 8vw);
+    left: calc(10vh + 15vw);
     font-size: calc(3vh + 3vw);
     text-align: center;
     color: rgba(33, 38, 53, 0.657);

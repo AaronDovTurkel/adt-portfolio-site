@@ -18,7 +18,7 @@
     background-position: center;
 	background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(34, 38, 60, 0.980);
+    background-image: linear-gradient(to right, rgba(38, 52, 129, 0.98) , rgba(34, 47, 119, 0.95), rgba(38, 52, 129, 0.98));
     display: grid;
 }
 

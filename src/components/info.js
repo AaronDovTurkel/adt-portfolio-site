@@ -13,8 +13,8 @@ export class Info extends React.Component {
                     <h2>Info</h2>
                 </div>
                 <div className="rightCol">
-                    <p>kejbfewhbdwendiwnediunediuwe, wjhebuwibed wjenwueybd2 iwhebduhb jwhbeuwb wibei 2euhdwiuehdwieu. iebfuywbewebfwhebfwm iwue iwuehf uh wiefw iwhe fwefihb wiwefijbwef hbwef ihbwefwejbwef.</p>
-                    <p>kejbfewhbdwendiwnediunediuwe, wjhebuwibed wjenwueybd2 iwhebduhb jwhbeuwb wibei 2euhdwiuehdwieu. iebfuywbewebfwhebfwm iwue iwuehf uh wiefw iwhe fwefihb wiwefijbwef hbwef ihbwefwejbwef.</p>
+                    <p>Born and raised in Queens, New York, I always was a questioner. I started to analayze books, everything from secular to sacred. I majored in English Lit and spent years studying the Talmud.</p>
+                    <p>Langauge and its use always intrigued me... I researched language theory and learnt valuable lessons on how we as humans work. That inquisitiveness brought me to the world of code and computers.</p>
                 </div>
             </div>
         );

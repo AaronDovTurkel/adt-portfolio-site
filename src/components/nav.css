@@ -1,16 +1,85 @@
 .nav {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    left: 0;
     justify-content: center;
     background: transparent;
-    padding-top: 5em;
     z-index: 1;
     display: grid;
-    padding: 1%;
+    grid-template-rows: auto auto;
 }
 
 .nav img {
-    height: 4.5vh;
+    height: 12vh;
     width: auto;
+    margin-left: 10%;
 }
+
+.navLogo {
+    transition: transform .8s ease-in-out; 
+    grid-row: 1 / 2;
+}
+
+.navLogo:hover {
+    transform: rotate(180deg);
+}
+
+.navLogo:hover ~ .navList {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navList {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-rows: none;
+    visibility: hidden;
+    opacity: 0;
+    grid-gap: 2%;
+    padding: 5%;
+    transition: visibility 0s, opacity 3s linear;
+}
+
+.navListItem {
+    display: grid;
+    padding: 2%;
+    border: 1px black solid;
+    height: 6vh;
+    justify-self: stretch;
+    justify-content: center;
+    align-self: stretch;
+    align-content: center;
+    text-align: center;
+    padding: 8%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.navList:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navListItem:hover {
+    border: 1px solid white;
+    color: rgb(35, 79, 199)
+}
+
+.spinner {
+    animation-name: spin;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+

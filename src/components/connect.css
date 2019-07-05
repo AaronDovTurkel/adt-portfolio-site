@@ -1,6 +1,6 @@
 .connect {
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr;
 }
 
 .connect > h2 {
@@ -12,13 +12,24 @@
     border-bottom: 2px solid white;
 }
 
-.connectLinks {
+.connect > p {
     grid-row: 2 / 3;
+    display: grid;
     justify-self: center;
+    align-self: end;
+    font-size: calc(1.8vh + 1.8vw);
+    text-align: center;
+    align-content: center;
+    grid-row-gap: 5%;
+}
+
+.connectLinks {
+    grid-row: 3 / 4;
+    justify-self: stretch;
     align-self: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
 }
 
 .connectLinks > a {
@@ -30,4 +41,5 @@
 
 .connectLinks > a:hover {
     border: 1px solid white;
+    color: black
 }
