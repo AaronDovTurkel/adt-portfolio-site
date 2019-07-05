@@ -1,0 +1,27 @@
+.homePage {
+    position: relative;
+    overflow: scroll;
+}
+
+.content-block {
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-auto-rows: auto;
+    position: absolute;
+    bottom: -395vh;
+    box-shadow: 0 -15px 15px -15px #333;
+    border-radius: 15px;
+}
+
+.content-block  > div {
+    height: 100vh;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(34, 38, 60, 0.980);
+    display: grid;
+}
+
+.content-block > :nth-child(1) {
+    border-radius: 15px 15px 0 0;
+}

@@ -1,0 +1,21 @@
+.landingScreen {
+    background-image: url('../imgStore/portfolioPic.png');
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+
+h1 {
+    position: absolute;
+    top: calc(6vh + 8vw);
+    left: calc(8vh + 6vw);
+    font-size: calc(3vh + 3vw);
+    text-align: center;
+    color: rgba(33, 38, 53, 0.657);
+    font-family: 'Dancing Script', cursive;
+}
+
