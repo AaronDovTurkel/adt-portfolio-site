@@ -47,7 +47,7 @@ export class Projects extends React.Component {
             return (
             
                 <div className="projects">
-                    <ProjectCard projectTitle="My Design Book"  projectInfo={this.state.projectInfo.myDesignBook} projectImageOne="../imgStore/myDesignBookMain.png" projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/my_design_book/master/public/img_store/mdb_logo.png"/>
+                    <ProjectCard projectTitle="My Design Book"  projectInfo={this.state.projectInfo.myDesignBook} projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/feature/routes/src/imgStore/myDesignBookMain.png" projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/my_design_book/master/public/img_store/mdb_logo.png"/>
                     <div className="buttonRemote">
                         <button className="backButton" onClick={() => this.decrementProjectNumb()}>Back</button>
                         <button className="nextButton" onClick={() => this.incrementProjectNumb()}>Next</button>

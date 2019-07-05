@@ -22,7 +22,7 @@
 
 .imgOne {
     height: 50vh;
-    width: 30vw;
+    width: 35vw;
     position: absolute;
     left: 10%;
     bottom: 40%;
@@ -34,7 +34,7 @@
     height: 25vh;
     width: 10vw;
     position: absolute;
-    left: 45%;
+    left: 50%;
     bottom: 30%;
     border-radius: 5px;
     transform: rotate(10deg);
