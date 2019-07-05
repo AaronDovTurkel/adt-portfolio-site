@@ -1,0 +1,33 @@
+.connect {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.connect > h2 {
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: end;
+    font-size: calc(3vh + 3vw);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.connectLinks {
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3%;
+}
+
+.connectLinks > a {
+    padding: 15%;
+    text-align: center;
+    border: 1px solid black;
+    font-size: calc(2vh + 2vw)
+}
+
+.connectLinks > a:hover {
+    border: 1px solid white;
+}

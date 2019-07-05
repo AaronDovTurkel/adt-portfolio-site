@@ -8,9 +8,13 @@ export class Connect extends React.Component {
 
     render() {
         return (
-            //TODO: create page that will insert diff components... i.e. projects, services, experience, info, connect, idea board
             <div className="connect">
-                <h2 className="pageHeader">Connect</h2>
+                    <h2>Connect</h2>
+                    <div className="connectLinks">
+                        <a href="mailto:theholycoder@gmail.com">Email</a>
+                        <a href="https://twitter.com/TheHolyCoder">Twitter</a>
+                        <a href="https://wordpress.com/stats/day/theholycoder.code.blog">Blog</a>
+                    </div>
             </div>
         );
     }

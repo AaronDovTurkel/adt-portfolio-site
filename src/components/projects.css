@@ -13,10 +13,11 @@
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 3vh;
-    width: 8vw;
-    left: 50%;
+    height: 4vh;
+    width: 20vw;
+    left: 40%;
     bottom: 5%;
+    box-shadow: 0 0 5px #000000;
 }
 
 .backButton {
@@ -24,6 +25,7 @@
     border-radius: 5px 0 0 5px;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
+    padding: 5%;
 }
 
 .nextButton {
@@ -31,5 +33,6 @@
     border-radius: 0px 5px 5px 0px;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
+    padding: 5%;
 }
 
