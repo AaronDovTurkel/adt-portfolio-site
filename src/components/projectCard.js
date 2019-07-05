@@ -11,7 +11,7 @@ export class ProjectCard extends React.Component {
         return (
             <div className="projectCard">
                 <div className="projectTitle">
-                    {this.props.projectTitle}
+                    <a href={this.props.href}> {this.props.projectTitle} </a>
                 </div>
                 <div className="projectInfo">
                     {this.props.projectInfo}

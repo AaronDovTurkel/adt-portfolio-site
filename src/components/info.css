@@ -11,9 +11,10 @@
     grid-column: 1 / 2;
     justify-self: center;
     align-self: center;
-    border-right: 2px black solid;
-    border-left: 2px black solid;
+    border-right: 2px white solid;
+    border-left: 2px white solid;
     font-size: calc(2vh + 3vw);
+    padding: 1%;
 }
 
 .rightCol {
@@ -42,8 +43,8 @@
         align-self: center;
         border-right: 0;
         border-left: 0;
-        border-top: 2px black solid;
-        border-bottom: 2px black solid;
+        border-top: 2px white solid;
+        border-bottom: 2px white solid;
     }
     
     .rightCol {

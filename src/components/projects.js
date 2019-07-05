@@ -36,7 +36,13 @@ export class Projects extends React.Component {
             return (
             
                 <div className="projects">
-                    <ProjectCard projectTitle="The Talmudic Clock" projectInfo={this.state.projectInfo.theTalmudicClock} projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/TalmudicClockApp/master/project_images/analog_clock.png" projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/TalmudicClockApp/master/project_images/settings_list_small_cropped.png"/>
+                    <ProjectCard 
+                    projectTitle="The Talmudic Clock" 
+                    href="https://aarondovturkel.github.io/TalmudicClockApp/"
+                    projectInfo={this.state.projectInfo.theTalmudicClock} 
+                    projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/TalmudicClockApp/master/project_images/analog_clock.png" 
+                    projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/TalmudicClockApp/master/project_images/settings_list_small_cropped.png"
+                    />
                     <div className="buttonRemote">
                         <button className="backButton">Back</button>
                         <button className="nextButton" onClick={() => this.incrementProjectNumb()}>Next</button>
@@ -47,7 +53,12 @@ export class Projects extends React.Component {
             return (
             
                 <div className="projects">
-                    <ProjectCard projectTitle="My Design Book"  projectInfo={this.state.projectInfo.myDesignBook} projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/feature/routes/src/imgStore/myDesignBookMain.png" projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/my_design_book/master/public/img_store/mdb_logo.png"/>
+                    <ProjectCard 
+                    projectTitle="My Design Book" 
+                    href="https://afternoon-cove-68012.herokuapp.com/"
+                    projectInfo={this.state.projectInfo.myDesignBook} projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/feature/routes/src/imgStore/MDBMainSmall.png" 
+                    projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/my_design_book/master/public/img_store/mdb_logo.png"
+                    />
                     <div className="buttonRemote">
                         <button className="backButton" onClick={() => this.decrementProjectNumb()}>Back</button>
                         <button className="nextButton" onClick={() => this.incrementProjectNumb()}>Next</button>
@@ -58,7 +69,13 @@ export class Projects extends React.Component {
             return (
             
                 <div className="projects">
-                    <ProjectCard projectTitle="The Poetry Pocket" projectInfo={this.state.projectInfo.thePoetryPocket} projectImageOne="" projectImageTwo=""/>
+                    <ProjectCard 
+                    projectTitle="The Poetry Pocket" 
+                    href="https://mighty-fortress-82471.herokuapp.com/dashboard"
+                    projectInfo={this.state.projectInfo.thePoetryPocket} 
+                    projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/the-poem-pocket-client/master/public/imgStore/TPPDashboard.png" 
+                    projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/the-poem-pocket-client/master/public/imgStore/TPPInfoBar.png"
+                    />
                     <div className="buttonRemote">
                         <button className="backButton" onClick={() => this.decrementProjectNumb()}>Back</button>
                         <button className="nextButton">Next</button>

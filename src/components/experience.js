@@ -8,9 +8,16 @@ export class Experience extends React.Component {
 
     render() {
         return (
-            //TODO: create page that will insert diff components... i.e. projects, services, experience, info, connect, idea board
             <div className="experience">
-                <h2 className="pageHeader">Experience</h2>
+                <div className="leftCol">
+                    <h2>Experience</h2>
+                </div>
+                <ul className="rightCol">
+                    <li>HTML, CSS</li>
+                    <li>JavaScript, JQuery, React, Redux, Node.js</li>
+                    <li>Mongo, Mongoose, Mlab</li>
+                    <li>Git</li>
+                </ul>
             </div>
         );
     }
