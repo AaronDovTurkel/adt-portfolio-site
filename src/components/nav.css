@@ -32,7 +32,6 @@
 .navList {
     grid-row: 2 / 3;
     display: grid;
-    grid-template-rows: none;
     visibility: hidden;
     opacity: 0;
     grid-gap: 2%;
@@ -42,17 +41,15 @@
 
 .navListItem {
     display: grid;
-    padding: 2%;
+    padding: 5%;
     border: 1px black solid;
     height: 6vh;
     justify-self: stretch;
-    justify-content: center;
+    justify-content: stretch;
     align-self: stretch;
     align-content: center;
     text-align: center;
-    padding: 8%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+
 }
 
 .navList:hover {

@@ -9,6 +9,10 @@
     align-self: center;
 }
 
+.experience > .leftCol {
+    padding: 2%;
+}
+
 @media screen and (max-width: 500px) {
     .experience {
         grid-template-rows: 1fr 1fr;
