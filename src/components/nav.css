@@ -1,0 +1,46 @@
+
+
+/* DEMO-SPECIFIC STYLES */
+.nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    justify-content: center;
+    background: transparent;
+    padding-top: 5em;
+    z-index: 1;
+    display: grid;
+    padding: 1%;
+}
+
+.typewriter {
+    display: grid;
+    grid-template-columns: auto auto auto
+}
+
+.navHalfLogoOne {
+    grid-column: 1 / 2;
+}
+
+.typewriter .typeWriterTxt {
+    grid-column: 2 / 3;
+    color: black;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+    typing 3s steps(25, end);
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.navHalfLogoTwo {
+    grid-column: 3 / 4;
+}

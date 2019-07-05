@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
+import Nav from './nav';
 import LandingScreen from './landingScreen';
 import Info from './info';
 import Projects from './projects';
@@ -15,6 +16,7 @@ export class HomePage extends React.Component {
     render() {
         return (
             <div className="homePage">
+                <Nav />
                 <LandingScreen />
                 <div className="content-block">
                     <Info />

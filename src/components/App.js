@@ -14,11 +14,9 @@ export class App extends React.Component {
         return (
             <Router>
                 <div className="app">
-                    <header></header>
                     <main>                      
                         <Route exact path="/" component={HomePage} /> 
                     </main>
-                    <footer></footer>
                 </div>
             </Router>
         );
