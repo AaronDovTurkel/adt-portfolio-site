@@ -1,0 +1,38 @@
+.projects {
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 1;
+    position: relative;
+}
+
+.projectCard {
+    grid-row: 1 / 2;
+}
+
+.buttonRemote {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 4vh;
+    width: 20vw;
+    left: 40%;
+    bottom: 5%;
+    box-shadow: 0 0 5px #000000;
+}
+
+.backButton {
+    grid-column: 1 / 2;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 5%;
+}
+
+.nextButton {
+    grid-column: 2 / 3;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 5%;
+}
+
