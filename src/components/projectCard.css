@@ -13,17 +13,25 @@
     font-size: calc(2vh + 2vw);
     color: white;
     text-shadow:
-		-2px -2px 0 #000,
-		2px -2px 0 #000,
-		-2px 2px 0 #000,
-        2px 2px 0 #000;
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.titleLink {
     border-bottom: 2px solid black;
 }
 
-.projectTitle:hover {
+.titleLink:hover {
     cursor: pointer;
     border-bottom: 2px solid white;;
 }
+
+.gitIcon {
+    height: 3vh;
+}
+
 
 .project-tech {
     grid-row: 2 / 3;

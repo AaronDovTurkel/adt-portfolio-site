@@ -50,10 +50,10 @@ export class HomePage extends React.Component {
                 />
                 <LandingScreen />
                 <div className="content-block">
-                    <div ref={this.info}><Info ref={this.info} /></div>
-                    <div ref={this.projects}><Projects ref="projectRef" /></div>
-                    <div ref={this.exp}><Experience ref="experienceRef" /></div>
-                    <div ref={this.at}><Connect ref="connectRef" /></div>
+                    <div ref={this.info}><Info /></div>
+                    <div ref={this.projects}><Projects /></div>
+                    <div ref={this.exp}><Experience /></div>
+                    <div ref={this.at}><Connect /></div>
                 </div>
             </div>
         );
