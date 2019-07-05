@@ -28,13 +28,13 @@ export class Nav extends React.Component {
         if (this.state.hover) {
             return (
                 <div className="nav" onMouseEnter={() => this.onHover()} onMouseLeave={() => this.onLeave()}>
-                    <img className="navHalfLogoOne" src="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/master/src/imgStore/HCLogoOne.png" alt="H" />
+                    <img className="navHalfLogoOne" src="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/master/src/imgStore/HCLogoTwo.png" alt="H" />
                 </div>
             );
         } else {
             return (
                 <div className="nav" onMouseEnter={() => this.onHover()} onMouseLeave={() => this.onLeave()}>
-                    <img className="navHalfLogoOne" src="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/master/src/imgStore/HCLogoOne.png" alt="H" />
+                    <img className="navHalfLogoOne" src="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/master/src/imgStore/HCLogoTwo.png" alt="H" />
                 </div>
             );
         }
