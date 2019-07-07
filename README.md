@@ -1,4 +1,4 @@
-# Aaron Turkel's <a target="_blank" rel="noopener noreferrer" href="https://theholycoder.com" >Portfolio Site</a>
+# Aaron Turkel's <a target="_blank" href="https://www.theholycoder.com" >Portfolio Site</a>
 
 
 ## The code
