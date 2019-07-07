@@ -9,7 +9,7 @@
 
 ### Acknowledgments
 
-Thanks to my wife for all her support!
+Thanks to my wife and family for all their support!
 
 #### Support
 
