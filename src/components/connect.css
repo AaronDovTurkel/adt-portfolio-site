@@ -8,8 +8,9 @@
     justify-self: center;
     align-self: end;
     font-size: calc(3vh + 3vw);
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
 }
 
 .connect > p {
@@ -20,7 +21,11 @@
     font-size: calc(1.8vh + 1.8vw);
     text-align: center;
     align-content: center;
+    justify-content: center;
+    padding-right: 3%;
+    padding-left: 3%;
     grid-row-gap: 5%;
+    color: white;
 }
 
 .connectLinks {

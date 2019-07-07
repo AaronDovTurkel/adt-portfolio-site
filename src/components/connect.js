@@ -10,7 +10,7 @@ export class Connect extends React.Component {
         return (
             <div className="connect">
                     <h2>Connect</h2>
-                    <p>I am looking for a tight-knit community of coders.<br /> I have big ideas, but I am ready to start small.<br /> Reach Out.</p>
+                    <p>I am looking for a tight-knit community of coders. I have big ideas, but I am ready to start small.</p>
                     <div className="connectLinks">
                         <a target="_blank" rel="noopener noreferrer" href="mailto:theholycoder@gmail.com">Email</a>
                         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/TheHolyCoder">Twitter</a>

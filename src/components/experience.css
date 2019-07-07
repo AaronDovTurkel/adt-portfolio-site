@@ -27,8 +27,8 @@
         align-self: start;
         border-right: 0;
         border-left: 0;
-        border-top: 2px white solid;
-        border-bottom: 2px white solid;
+        border-top: 2px black solid;
+        border-bottom: 2px black solid;
     }
     
     .experience > .rightCol {
