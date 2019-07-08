@@ -72,7 +72,7 @@ export class Projects extends React.Component {
                     projectTitle="My Design Book" 
                     href="https://afternoon-cove-68012.herokuapp.com/"
                     gitHub="https://github.com/AaronDovTurkel/my_design_book"
-                    projectInfo={this.state.projectInfo.myDesignBook} projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/feature/routes/src/imgStore/MDBMainSmall.png" 
+                    projectInfo={this.state.projectInfo.myDesignBook} projectImageOne="https://raw.githubusercontent.com/AaronDovTurkel/adt-portfolio-site/master/src/imgStore/MDBMainSmall.png" 
                     projectImageTwo="https://raw.githubusercontent.com/AaronDovTurkel/my_design_book/master/public/img_store/mdb_logo.png"
                     tech={<div className="project-tech">
                     <svg viewBox="0 0 128 128" data-name="js" className="tech-icon">
