@@ -56,7 +56,7 @@
     .projects {
         display: grid;
         width: 100vw;
-        grid-template-rows: .1fr 2fr;
+        grid-template-rows: .2fr 2fr;
         position: relative;
     }
 
@@ -65,9 +65,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         height: calc(1.5vh + 1.5vw);
-        width: 50vw;
-        left: 25vw;
-        bottom: 12%;
+        width: 80vw;
+        left: 10vw;
+        bottom: 14%;
         box-shadow: 0 0 5px #000000;
     }
 }
