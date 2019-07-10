@@ -1,14 +1,14 @@
 .projectCard {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 2fr .5fr 3fr;
+    grid-template-rows: 1fr .3fr 3fr;
 }
 
 .projectTitle {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     justify-self: center;
-    align-self: end;
+    align-self: center;
     text-align: center;
     font-size: calc(2vh + 2vw);
     color: white;
@@ -32,19 +32,22 @@
     height: 3vh;
 }
 
+.octicon {
+    fill: white;
+}
 
 .project-tech {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: .5%;
+    grid-template-columns: auto auto auto auto;
     justify-self: center;
     align-self: center;
 }
 
 .project-tech > svg {
     height: 3vh;
+    padding: 3%;
     justify-self: center;
     align-self: center;
 }
@@ -57,34 +60,29 @@
     text-align: center;
     padding: 5%;
     color: white;
-    font-size: calc(1vh + 1.5vw);
+    font-size: calc(1.2vh + 1.5vw);
     line-height: 1.5em;
 }
 
 .projectImages {
     grid-row: 1 / 4;
     grid-column: 2 / 3;
-    position: relative;
+    justify-self: center;
+    align-self: start;
 }
 
 .imgOne {
-    height: 50vh;
-    width: 30vw;
-    position: absolute;
-    left: 15%;
-    bottom: 30%;
+    height: calc(30vh + 10vw);
+    width: calc(15vh + 20vw);
     border-radius: 5px;
     box-shadow: 0 0 10px #000000;
 }
 
 .imgTwo {
-    height: 25vh;
-    width: 10vw;
-    position: absolute;
-    left: 65%;
-    bottom: 20%;
+    height: calc(5vh + 10vw);
+    width: calc(5vh + 5vw);
     border-radius: 5px;
-    transform: rotate(10deg);
+    transform: rotate(15deg);
     box-shadow: 0 0 10px #000000;
 }
 
@@ -96,7 +94,7 @@ a {
 @media screen and (max-width: 500px) {
     .projectCard {
         display: grid;
-        grid-template-rows: .5fr .3fr 1fr 1.5fr;
+        grid-template-rows: auto .1fr auto auto auto;
         grid-template-columns: 1fr;
     }
 
@@ -108,51 +106,37 @@ a {
     .project-tech {
         grid-row: 2 / 3;
         grid-column: 1 / 2;
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-self: center;
-        align-self: center;
     }
     
     .projectInfo {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
-        justify-self: stretch;
-        align-self: start;
-        text-align: center;
-        padding: 5%;
-        color: white;
         font-size: calc(1.5vh + 1.5vw);
         line-height: 1.5em;
     }
 
-
-    
-    .projectImages {
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
-        position: relative;
-    }
-
     .imgOne {
-        height: 30vh;
-        width: 60vw;
-        position: absolute;
-        left: 8%;
-        bottom: 40%;
+        height: 25vh;
+        width: 40vw;
         border-radius: 5px;
         box-shadow: 0 0 10px #000000;
     }
     
     .imgTwo {
         height: 15vh;
-        width: 20vw;
-        position: absolute;
-        left: 70%;
-        bottom: 30%;
+        width: 15vw;
         border-radius: 5px;
-        transform: rotate(10deg);
+        transform: rotate(25deg);
+        position: absolute;
+        left: 20%;
+        bottom: 30%;
         box-shadow: 0 0 10px #000000;
     }
+    
+    .projectImages {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
     
 }

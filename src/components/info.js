@@ -14,7 +14,7 @@ export class Info extends React.Component {
                 </div>
                 <div className="rightCol">
                     <p>Born and raised in Queens, New York, I always was a questioner. I started to analayze books, everything from secular to sacred. I majored in English Lit and spent years studying the Talmud.</p>
-                    <p>I researched language theory and learnt valuable lessons on how langauge works. Those lessons brought me to the world of code and computers.</p>
+                    <p>I researched language theory and learned valuable lessons on how langauge works. Those lessons brought me to the world of code and computers.</p>
                 </div>
             </div>
         );

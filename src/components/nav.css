@@ -10,9 +10,10 @@
 }
 
 .nav img {
-    height: 12vh;
+    height: calc(6vh + 6vw);
     width: auto;
-    margin-left: 10%;
+    margin-top: 12px;
+    margin-left: 12px;
 }
 
 .navLogo {
@@ -32,6 +33,7 @@
 .navList {
     grid-row: 2 / 3;
     display: grid;
+    margin-left: 20px;
     visibility: hidden;
     opacity: 0;
     grid-gap: 2%;
@@ -79,4 +81,52 @@
 }
 
 
+@media screen and (max-width: 500px) {
+    .nav {
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        background: transparent;
+        z-index: 1;
+        display: grid;
+        grid-template-rows: auto auto;
+    }
 
+    .nav img {
+        height: 12vh;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .navList {
+        grid-row: 2 / 3;
+        display: grid;
+        justify-self: center;
+        align-self: center;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 0px;
+        visibility: hidden;
+        opacity: 0;
+        grid-gap: 2%;
+        padding: 5%;
+        transition: visibility 0s, opacity 3s linear;
+    }
+
+    .navListItem {
+        display: grid;
+        padding: 5%;
+        border: 1px black solid;
+        height: 6vh;
+        justify-self: stretch;
+        justify-content: stretch;
+        align-self: stretch;
+        align-content: center;
+        text-align: center;
+    
+    }
+}

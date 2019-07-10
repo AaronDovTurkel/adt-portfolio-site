@@ -22,9 +22,7 @@
     text-align: center;
     align-content: center;
     justify-content: center;
-    padding-right: 3%;
-    padding-left: 3%;
-    grid-row-gap: 5%;
+    padding: 2%; 
     color: white;
 }
 
@@ -34,17 +32,58 @@
     align-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1%;
 }
 
 .connectLinks > a {
     padding: 15%;
     text-align: center;
-    border: 1px solid black;
     font-size: calc(2vh + 2vw)
 }
 
 .connectLinks > a:hover {
-    border: 1px solid white;
-    color: black
+    animation: pulse 1s infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes pulse {
+    0% { transform: scale(1) }
+    50% { transform: scale(1.1) }
+    100% { transform: scale(1) }
+}
+
+
+.twitterLink {
+    background-image: url('../imgStore/twitterIcon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 0px;
+    color: transparent;
+}
+
+.gmailLink {
+    background-image: url('../imgStore/gmailLogo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 0px;
+    color: transparent;
+}
+
+.blogLink {
+    background-image: url('../imgStore/wordPressIcon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 0px;
+    color: transparent;
+}
+
+.gitHubLink {
+    background-image: url('../imgStore/gitHubIcon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 0px;
+    color: transparent;
 }

@@ -13,7 +13,7 @@ export class Nav extends React.Component {
                 <ul className="navList">
                     <li onClick={() => this.props.onScrollToLink()} className="navListItem infoItem">Info</li>
                     <li onClick={() => this.props.scrollProjects()} className="navListItem apps">Projects</li>
-                    <li onClick={() => this.props.scrollExp()} className="navListItem exp">Experience</li>
+                    <li onClick={() => this.props.scrollExp()} className="navListItem exp">Skills</li>
                     <li onClick={() => this.props.scrollAt()} className="navListItem at">Connect</li>
                 </ul>
             </div>
