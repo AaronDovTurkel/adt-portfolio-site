@@ -19,8 +19,8 @@ export class ProjectCard extends React.Component {
                     {this.props.projectInfo}
                 </div>
                 <div className="projectImages">
-                    <img className="imgOne" src={this.props.projectImageOne} alt="Smiley face" />
-                    <img className="imgTwo" src={this.props.projectImageTwo} alt="Smiley face" />
+                    <img className="imgOne" src={this.props.imgOne} alt={this.props.altImgOne} />
+                    <img className="imgTwo" src={this.props.imgTwo} alt={this.props.altImgTwo} />
                 </div>
             </div>
         );

@@ -14,9 +14,9 @@ export class Experience extends React.Component {
                 </div>
                 <ul className="rightCol">
                     <li>HTML, CSS</li>
-                    <li>JavaScript, JQuery, React, Redux, Node.js</li>
-                    <li>Mongo, Mongoose, Mlab</li>
-                    <li>Git</li>
+                    <li>JavaScript, Node.js, JQuery, React, Redux</li>
+                    <li>MongoDB, Mongoose, Mlab, Atlas</li>
+                    <li>Git, GitHub</li>
                 </ul>
             </div>
         );

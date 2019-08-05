@@ -83,6 +83,7 @@
     width: calc(5vh + 5vw);
     border-radius: 5px;
     transform: rotate(15deg);
+    border: transparent;
     box-shadow: 0 0 10px #000000;
 }
 

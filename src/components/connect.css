@@ -31,11 +31,11 @@
     justify-self: stretch;
     align-self: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
 }
 
 .connectLinks > a {
-    padding: 15%;
+    padding: 14%;
     text-align: center;
     font-size: calc(2vh + 2vw)
 }
@@ -62,7 +62,7 @@
 }
 
 .gmailLink {
-    background-image: url('../imgStore/gmailLogo.png');
+    background-image: url('../imgStore/emailLogo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -70,8 +70,8 @@
     color: transparent;
 }
 
-.blogLink {
-    background-image: url('../imgStore/wordPressIcon.png');
+.linkedInLink {
+    background-image: url('../imgStore/linkedInFinalLogo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
