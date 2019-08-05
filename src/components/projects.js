@@ -21,7 +21,7 @@ export class Projects extends React.Component {
             projectInfo: {
                 theTalmudicClock: 'The "Talmudic Clock App" is a modern sun-dial designed to display the hour of the day as calculated in Jewish law with reference to the varying lengths of the days and nights. It also allows you to list Jewish prayer times.',
                 myDesignBook: '"My Design Book" is a socially adept system for designers to find home owners and visa versa. Not only will this app connect people but it will also be the home base for all design needs.',
-                thePoetryPocket: '"The Poetry Pocket" is a place for different communities to come together and share ideas by creating a cohesive poem. As different people contribute from around the world, ideals will be tested, and preconcieved notions broken.'
+                thePoetryPocket: '"The Poetry Pocket" is a place for different communities to come together and share ideas by creating a cohesive poem. As different people contribute from around the world, ideals will be tested, and preconceived notions broken.'
             }
         };
 
