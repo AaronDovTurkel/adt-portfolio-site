@@ -13,10 +13,10 @@ export class Experience extends React.Component {
                     <h2>Skills</h2>
                 </div>
                 <ul className="rightCol">
-                    <li>HTML, CSS</li>
-                    <li>JavaScript, Node.js, JQuery, React, Redux</li>
-                    <li>MongoDB, Mongoose, Mlab, Atlas</li>
-                    <li>Git, GitHub</li>
+                    <li>HTML | CSS | UX/UI | React/Redux</li>
+                    <li>JavaScript | Node.js | Express.js | JQuery</li>
+                    <li>NoSQL | MongoDB |  Mongoose</li>
+                    <li>Git | GitHub</li>
                 </ul>
             </div>
         );

@@ -1,6 +1,6 @@
 .info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .5fr 1.5fr;
     justify-self: center;
     align-self: center;
 }
@@ -21,9 +21,9 @@
     display: grid;
     grid-column: 2 / 3;
     justify-self: center;
-    align-self: stretch;
-    font-size: calc(1.6vh + 1.6vw);
-    padding: 10%;
+    align-self: center;
+    font-size: calc(1.5vh + 1.4vw);
+    padding: 5%;
     text-align: center;
     align-content: center;
     grid-row-gap: 5%;
