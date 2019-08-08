@@ -14,12 +14,13 @@ export class Info extends React.Component {
                 </div>
                 <div className="rightCol">
                     <p>
-                        I am a budding young full-stack developer interested in new technology, critical reading, and self-improvement.
-                        I have worked as a waiter, teacher, project manager, entitlement specialist, etc...
-                        I have spent years studying the literary canon from classical to religious, developing a mature and comprehensive world view.
+                        I am a budding young full-stack developer interested in new technology, critical reading, and self-improvement.	
                     </p>
                     <p>
-                        I now am launching my long-term career as an innovative developer hoping to improve how we interact with the technological world.
+                        I have spent years deciphering talmudic and classical literature under the tutelage of Rabbinic and literary scholars. My time in the literary world gave me a deep understanding of how language functions at its core. For the past two years I have transitioned that knowledge and devoted myself to the study of computer language.
+                    </p>
+                    <p>
+                        Having developed a proficiency in everything from HTML/CSS to React/Redux, my web apps are highly scalable with sleek front-ends and structural back-ends.
                     </p>
                 </div>
             </div>
