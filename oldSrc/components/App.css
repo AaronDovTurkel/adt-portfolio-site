@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-auto-rows: auto;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-auto-rows: auto;
+}
