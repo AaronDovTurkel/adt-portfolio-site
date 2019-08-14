@@ -1,6 +1,10 @@
-import { combineReducers } from 'redux';
-import changePage from './changePage';
+import { combineReducers } from 'redux'
+import listItems from './listItems'
+import visibilityFilter from './visibilityFilter'
+import changePage from './changePage'
 
 export default combineReducers({
-  changePage
-});
+    listItems,
+    visibilityFilter,
+    changePage
+})
